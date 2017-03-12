@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name" translatable="false">eSpider</string>
+    <string name="app_title" formatted="false" translatable="false"> %s for Everdigm</string>
+
+    <string name="ui_menu_item_realm" translatable="false">Temporary data</string>
+    <string name="ui_menu_item_data_has_reported">Reported</string>
+    <string name="ui_menu_item_data_not_report">Not Report</string>
+
+    <string name="ui_base_text_dot">, </string>
+
+    <string name="ui_warning_progressing">Handling&#8230;</string>
+    <string name="ui_warning_press_again_to_exit">Press again to exit</string>
+    <string name="ui_warning_network_not_available">Network is not Available</string>
+    <string name="ui_warning_network_service_not_available">Service is not Reachable</string>
+    <string name="ui_warning_server_handle_fail">Server cannot handler your request, please try later.</string>
+    <string name="ui_warning_updating_title" formatted="false">A new version is available(%s)</string>
+    <string name="ui_warning_nothing">Oops, there\'s nothing to show for you.</string>
+    <string name="ui_warning_loading">Loading data, please wait&#8230;</string>
+    <string name="ui_warning_default_title">Warning!!</string>
+    <string name="ui_warning_no_content_display">No content to display.</string>
+    <string name="ui_warning_cannot_run_in_emulator">You cannot run this app in any emulators.</string>
+    <string name="ui_warning_update_title">New version has released!</string>
+    <string name="ui_warning_google_play_service_not_available">You should install Google Play Service kits first.</string>
+    <string name="ui_warning_location_service_not_exist">Your device do not have Location Service.</string>
+    <string name="ui_warning_location_provider_not_enabled">Cannot attach system location service, please ensure turn it on(High accuracy mode recommended).</string>
+    <string name="ui_warning_updating_no_update">You have the newest version installed.</string>
+    <string name="ui_warning_updating_server_fail">Server cannot handler your update request, please try later.</string>
+    <string name="ui_warning_updating_fail">Fetching update info fail, try again later.</string>
+    <string name="ui_warning_updating_user_canceled">Canceled</string>
+    <string name="ui_warning_account_fail">Account error(only with 0&#8211;9, a&#8211;z or A&#8211;Z and underscore)</string>
+    <string name="ui_warning_password_fail">Password error(only with 0&#8211;9, a-z or A&#8211;Z and underscore)</string>
+    <string name="ui_warning_account_need_bind">You should bind your tms account first.</string>
+    <string name="ui_warning_account_need_re_bind">Your tms account was changed, if you did not migrate your device to another one, please re-bind again.</string>
+
+    <string name="ui_fragment_title_bind_account">Bind TMS Account</string>
+
+    <string name="ui_dialog_button_yes_i_know">Got it!</string>
+    <string name="ui_dialog_button_update_confirm">Update now</string>
+    <string name="ui_dialog_button_update_cancel">No, Cancel</string>
+
+    <string name="ui_permission_message_fetchable">Fetch background message</string>
+    <string name="ui_permission_access_external_storage">Access your external storage</string>
+    <string name="ui_permission_access_location">Access your GPS location</string>
+    <string name="ui_permission_access_phone_state">Use your device(make a phone call etc)</string>
+    <string name="ui_permission_base" formatted="false"><![CDATA[App need you to allow the following basic permission(s) to ensure it\'s running normally: %s。<br />You can also <b>disable</b> them later.]]></string>
+
+    <string name="ui_notification_updating_title">Downloading&#8230;</string>
+    <string name="ui_notification_updating_description">Downloading app installation file, please wait</string>
+    <string name="ui_notification_updated_title">Download complete</string>
+    <string name="ui_notification_updated_description">Click to install new version app.</string>
+    <string name="ui_notification_update_fail_title">Download fail</string>
+    <string name="ui_notification_update_fail_description">An error occurred when download app, please try again.</string>
+
+    <string name="ui_view_holder_text_check_update">Checking update&#8230;</string>
+    <string name="ui_view_holder_text_account_bound"><![CDATA[Has already bound with <font color="#65656a">%s</font>]]></string>
+    <string name="ui_view_holder_text_account_rebind">Need re-bind again</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ui_list_view_items">
+        <item>0|-|-|-|-|0|-|1</item>
+        <item>1|&#xe7fe;|#aed24c|Register|Bind your device and your TMS system account.|-1|1|1</item>
+        <item>2|&#xe855;|#FBC02D|Period|Current report period is: %d minutes.|-1|1|0</item>
+        <item>3|-|-|-|-|0|-</item>
+        <item>4|&#xe86a;|#00a8a8|Update|Check the newest version of this app.|-1|1|1</item>
+        <item>5|&#xe8fd;|#fe8802|About|About eSpider for everdigm.|-1|1|1</item>
+    </string-array>
+    <string-array name="ui_list_bind_account">
+        <item>0|Account|tms account(min length 3)|30|0</item>
+        <item>1|Password|tms password(min length 4)|20|1</item>
+        <item>2|-|-|0|0</item>
+        <item>3|Binding your device and your tms account. rebind it when you migrate to a new device.|-|0|0</item>
+        <item>4|-|-|0|0</item>
+        <item>5|Bind|-|0|0</item>
+    </string-array>
+</resources>

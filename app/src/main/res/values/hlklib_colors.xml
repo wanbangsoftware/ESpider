@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Switch-->
+    <color name="hlklib_custom_switch_selected_color">#33bfce</color>
+    <color name="hlklib_custom_switch_unselected_color">#ededed</color>
+    <!--Ribbon Flag View-->
+    <color name="hlklib_ribbon_flag_view_default_text_background">#fe8802</color>
+    <!--Countdown Input-->
+    <color name="hlklib_countdown_input_text_color">#434347</color>
+    <color name="hlklib_countdown_input_hint_color">#bfbfbf</color>
+    <color name="hlklib_countdown_input_counter_color">#ff4081</color>
+    <color name="hlklib_countdown_input_border_color">#F57F17</color>
+    <!--RippleView-->
+    <color name="hlklib_ripple_view_color">#FFFFFF</color>
+</resources>

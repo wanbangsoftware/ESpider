@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hlklib_custom_switch_bg"
+    android:orientation="horizontal"
+    android:padding="@dimen/hlklib_custom_switch_padding">
+
+    <TextView
+        android:id="@+id/hlklib_custom_switch_left_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/hlklib_custom_switch_left_selected"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:minWidth="@dimen/hlklib_custom_switch_button_min_width"
+        android:paddingBottom="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:paddingTop="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:singleLine="true"
+        android:text="@string/hlklib_custom_switch_left_text"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/hlklib_custom_switch_center_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/hlklib_custom_switch_center_unselected"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:minWidth="@dimen/hlklib_custom_switch_button_min_width"
+        android:paddingBottom="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:paddingTop="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:singleLine="true"
+        android:text="@string/hlklib_custom_switch_left_text"
+        android:textColor="@color/hlklib_custom_switch_selected_color" />
+
+    <TextView
+        android:id="@+id/hlklib_custom_switch_right_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/hlklib_custom_switch_right_unselected"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:minWidth="@dimen/hlklib_custom_switch_button_min_width"
+        android:paddingBottom="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:paddingTop="@dimen/hlklib_custom_switch_text_top_bottom_padding"
+        android:singleLine="true"
+        android:text="@string/hlklib_custom_switch_right_text"
+        android:textColor="@color/hlklib_custom_switch_selected_color" />
+</LinearLayout>

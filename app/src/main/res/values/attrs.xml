@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer"/>
+        <attr name="rv_rippleDuration" format="integer"/>
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0"/>
+            <enum name="doubleRipple" value="1"/>
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CorneredButton">
+        <attr name="active_color" format="color" />
+        <attr name="normal_color" format="color" />
+        <attr name="disabled_color" format="color" />
+        <attr name="corner_size" format="dimension" />
+        <attr name="left_top_corner_size" format="dimension" />
+        <attr name="left_bottom_corner_size" format="dimension" />
+        <attr name="right_top_corner_size" format="dimension" />
+        <attr name="right_bottom_corner_size" format="dimension" />
+        <attr name="background_type">
+            <enum name="fill" value="0" />
+            <enum name="border" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CorneredEditText">
+        <attr name="cet_active_border" format="color" />
+        <attr name="cet_normal_border" format="color" />
+        <attr name="cet_disabled_border" format="color" />
+        <attr name="cet_corner_size" format="dimension" />
+        <attr name="cet_left_top_corner" format="dimension" />
+        <attr name="cet_left_bottom_corner" format="dimension" />
+        <attr name="cet_right_top_corner" format="dimension" />
+        <attr name="cet_right_bottom_corner" format="dimension" />
+        <attr name="cet_background" format="color" />
+        <attr name="cet_border_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CorneredView">
+        <attr name="cv_active_border" format="color" />
+        <attr name="cv_normal_border" format="color" />
+        <attr name="cv_disabled_border" format="color" />
+        <attr name="cv_corner_size" format="dimension" />
+        <attr name="cv_left_top_corner" format="dimension" />
+        <attr name="cv_left_bottom_corner" format="dimension" />
+        <attr name="cv_right_top_corner" format="dimension" />
+        <attr name="cv_right_bottom_corner" format="dimension" />
+        <attr name="cv_background" format="color" />
+        <attr name="cv_border_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButton">
+        <attr name="tb_borderWidth" format="dimension" />
+        <attr name="tb_offBorderColor" format="reference|color" />
+        <attr name="tb_offColor" format="reference|color" />
+        <attr name="tb_onColor" format="reference|color" />
+        <attr name="tb_spotColor" format="reference|color" />
+        <attr name="tb_animate" format="reference|boolean" />
+        <attr name="tb_isDefaultOn" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomWaterDrop">
+        <attr name="cwd_radius" format="dimension" />
+        <attr name="cwd_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularCountdown">
+        <!--半径-->
+        <attr name="cc_radius" format="dimension" />
+        <attr name="cc_handlerRadius" format="dimension" />
+        <attr name="cc_duration" format="integer" />
+        <attr name="cc_background" format="color" />
+        <attr name="cc_foreground" format="color" />
+        <attr name="cc_handlerColor" format="color" />
+        <attr name="cc_borderWidth" format="dimension" />
+        <attr name="cc_textColor" format="color" />
+        <attr name="cc_textSize" format="dimension" />
+        <attr name="cc_countdown">
+            <enum name="reset" value="0" />
+            <enum name="keepOn" value="1" />
+        </attr>
+        <attr name="cc_display">
+            <enum name="both" value="0" />
+            <enum name="onlyText" value="1" />
+            <enum name="onlyHandler" value="2" />
+        </attr>
+        <attr name="cc_autoStart" format="boolean" />
+        <attr name="cc_maximumCycleTimes" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="IconTextView">
+        <!--字体类别-->
+        <attr name="hlktv_font">
+            <!--使用FontAwesome字体-->
+            <enum name="fontawesome" value="0" />
+            <!--使用MaterialIcon字体-->
+            <enum name="materialicon" value="1" />
+            <!--使用IcoMoon字体-->
+            <enum name="icomoon" value="2" />
+        </attr>
+        <!--背景形状-->
+        <attr name="hlktv_background_shape">
+            <!--无背景形状-->
+            <enum name="none" value="0" />
+            <!--圆形-->
+            <enum name="oval" value="1" />
+            <!--方形-->
+            <enum name="rectangle" value="2" />
+        </attr>
+        <!--背景颜色-->
+        <attr name="hlktv_background_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CountdownEditText">
+        <!--最大控制输入长度-->
+        <attr name="cet_counter_max" format="integer" />
+        <!--字体大小-->
+        <attr name="cet_counter_text_size" format="dimension" />
+        <!--字体颜色-->
+        <attr name="cet_counter_text_color" format="color" />
+        <!--格式化字符-->
+        <attr name="cet_counter_text_format" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomShape">
+        <!--图像整体距离边界的距离-->
+        <attr name="padding_size" format="dimension" />
+        <!--边角数量，大于或等于3，默认为正5变形-->
+        <attr name="corners" format="integer" />
+        <!--外围边框颜色-->
+        <attr name="outer_border_color" format="color" />
+        <!--外围边框粗细-->
+        <attr name="outer_border_width" format="dimension" />
+        <!--背景颜色-->
+        <attr name="background_color" format="color" />
+        <!--是否显示引导线-->
+        <attr name="show_guideline" format="boolean" />
+        <!--引导线颜色-->
+        <attr name="guideline_color" format="color" />
+        <!--引导线粗细-->
+        <attr name="guideline_width" format="dimension" />
+        <!--前景色块颜色，必须定义成边角数量个数的数组-->
+        <attr name="foreground_colors" format="reference" />
+        <!--要显示的值列表，必须定义成边教书两个数的数组-->
+        <attr name="foreground_values" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSwitch">
+        <!--选择模式: 2项选择或3项选择-->
+        <attr name="switch_mode">
+            <enum name="two" value="0" />
+            <enum name="three" value="1" />
+        </attr>
+        <!--开启时的文字-->
+        <attr name="switch_on_text" format="string" />
+        <!--关闭时的文字-->
+        <attr name="switch_off_text" format="string" />
+        <!--中间的文字-->
+        <attr name="switch_center_text" format="string" />
+        <!--整个开关的背景-->
+        <attr name="switch_background" format="reference" />
+        <!--开启时的背景-->
+        <attr name="switch_on_background" format="reference" />
+        <!--关闭时的背景-->
+        <attr name="switch_off_background" format="reference" />
+        <attr name="switch_font_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MetaballView">
+        <!--图形绘画模式-->
+        <attr name="paintMode">
+            <enum name="stroke" value="0" />
+            <enum name="fill" value="1" />
+        </attr>
+        <!--图形的前景色-->
+        <attr name="drawColor" format="color" />
+        <!--球的半径-->
+        <attr name="ballRadius" format="float" />
+        <!--球之间的距离-->
+        <attr name="ballDivider" format="integer" />
+        <!--球的个数-->
+        <attr name="balls" format="integer" />
+        <!--动画时间间隔-->
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="VoiceRecordButton">
+        <!--最短时间限制-->
+        <attr name="minimum_time_limit" format="integer" />
+        <!--最长时间限制-->
+        <attr name="maximum_time_limit" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <!--星数量-->
+        <attr name="star_num" format="integer" />
+        <!--星的大小-->
+        <attr name="star_size" format="dimension" />
+        <!--星之间的间隔-->
+        <attr name="star_spacing" format="dimension" />
+        <!--星的颜色-->
+        <attr name="star_color" format="color|reference" />
+        <!--步长-->
+        <attr name="step_size" format="float" />
+        <!--默认评分-->
+        <attr name="default_rate" format="float" />
+        <!--星的排列方式-->
+        <attr name="star_orientation">
+            <enum name="vertical" value="1" />
+            <enum name="horizontal" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RibbonFlagView">
+        <!--标签的位置-->
+        <attr name="rfv_flag_position">
+            <enum name="none" value="0" />
+            <enum name="topLeft" value="1" />
+            <enum name="topRight" value="2" />
+            <enum name="bottomRight" value="3" />
+            <enum name="bottomLeft" value="4" />
+        </attr>
+        <!--内容UI布局-->
+        <attr name="rfv_flag_content" format="reference" />
+        <!--标签文字-->
+        <attr name="rfv_flag_text" format="string" />
+        <!--标签的文字大小-->
+        <attr name="rfv_flag_text_size" format="dimension" />
+        <!--标签文字颜色-->
+        <attr name="rfv_flag_text_color" format="color" />
+        <!--标签的背景-->
+        <attr name="rfv_flag_background" format="color" />
+    </declare-styleable>
+</resources>

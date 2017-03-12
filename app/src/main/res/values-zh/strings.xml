@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ui_menu_item_data_has_reported">已上传</string>
+    <string name="ui_menu_item_data_not_report">未上传</string>
+
+    <string name="ui_warning_progressing">请稍候&#8230;</string>
+    <string name="ui_warning_network_not_available">网络连接不可用</string>
+    <string name="ui_warning_network_service_not_available">无法访问远程服务</string>
+    <string name="ui_warning_server_handle_fail">服务器无法处理您的请求，请稍后再试</string>
+    <string name="ui_warning_press_again_to_exit">再按一次退出</string>
+    <string name="ui_warning_updating_title" formatted="false">有新的版本可下载(%s)</string>
+    <string name="ui_warning_nothing">哎呀，没什么可展示给您的了</string>
+    <string name="ui_warning_loading">内容加载中，请稍候&#8230;</string>
+    <string name="ui_warning_default_title">提醒！</string>
+    <string name="ui_warning_no_content_display">没有可以显示的内容</string>
+    <string name="ui_warning_cannot_run_in_emulator">对不起，您不可以在模拟器里运行此应用。</string>
+    <string name="ui_warning_update_title">新版本已经发布</string>
+    <string name="ui_warning_google_play_service_not_available">您需要先安装Google Play Service套件才能继续。</string>
+    <string name="ui_warning_location_service_not_exist">您的设备缺少位置服务相关的组件</string>
+    <string name="ui_warning_location_provider_not_enabled">无法访问您的位置服务，请确保您已经打开了该设定（定位模式建议设为高精确度方式）</string>
+    <string name="ui_warning_updating_no_update">您安装的已经是最新版本了</string>
+    <string name="ui_warning_updating_server_fail">服务器目前无法处理这个请求</string>
+    <string name="ui_warning_updating_fail">检测更新失败，请稍后再试</string>
+    <string name="ui_warning_updating_user_canceled">已取消</string>
+    <string name="ui_warning_account_fail">账号输入错误(只允许字母、数字和下划线)</string>
+    <string name="ui_warning_password_fail">密码输入错误(只允许字母、数字和下划线)</string>
+    <string name="ui_warning_account_need_bind">您需要先绑定您的TMS账户</string>
+    <string name="ui_warning_account_need_re_bind">您的TMS账户信息已修改，如果您没有更换设备，请重新绑定您的账户</string>
+
+    <string name="ui_permission_message_fetchable">接收后台推送消息</string>
+    <string name="ui_base_text_dot">，</string>
+
+    <string name="ui_fragment_title_bind_account">绑定TMS账户</string>
+
+    <string name="ui_notification_updating_title">下载中&#8230;</string>
+    <string name="ui_notification_updating_description">正在下载安装文件，请稍侯</string>
+    <string name="ui_notification_updated_title">下载完毕</string>
+    <string name="ui_notification_updated_description">点击安装刚下载的版本</string>
+    <string name="ui_notification_update_fail_title">下载失败</string>
+    <string name="ui_notification_update_fail_description">下载安装文件过程中出错，请重试</string>
+
+    <string name="ui_dialog_button_yes_i_know">知道了</string>
+    <string name="ui_dialog_button_update_confirm">现在更新</string>
+    <string name="ui_dialog_button_update_cancel">下次再说</string>
+
+    <string name="ui_permission_access_external_storage">访问存储空间</string>
+    <string name="ui_permission_access_location">访问位置信息</string>
+    <string name="ui_permission_access_phone_state">使用电话设备</string>
+    <string name="ui_permission_base" formatted="false"><![CDATA[App需要您允许以下基本权限来保证应用的正常运行：%s。<br />您也可以<b>禁用</b>这些权限来保证隐私，但您可能将无法完美体验全部的功能。]]></string>
+
+    <string name="ui_view_holder_text_check_update">检查新版本&#8230;</string>
+    <string name="ui_view_holder_text_account_bound"><![CDATA[已绑定到账号<font color="#65656a">%s</font>]]></string>
+    <string name="ui_view_holder_text_account_rebind">需重新绑定</string>
+</resources>

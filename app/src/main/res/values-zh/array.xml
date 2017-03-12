@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ui_list_view_items">
+        <item>0|-|-|-|-|0|-|1</item>
+        <item>1|&#xe7fe;|#aed24c|账号绑定|将您的设备和您的TMS账号绑定|-1|1|1</item>
+        <item>2|&#xe855;|#FBC02D|定期汇报|当前汇报时间间隔为%d分钟|-1|1|0</item>
+        <item>3|-|-|-|-|0|-|1</item>
+        <item>4|&#xe86a;|#00a8a8|检测新版本||-1|1|1</item>
+        <item>5|&#xe8fd;|#fe8802|关于|关于 eSpider for everdigm|-1|1|1</item>
+    </string-array>
+
+    <string-array name="ui_list_bind_account">
+        <item>0|账号|tms账号(长度大于等于3)|30|0</item>
+        <item>1|密码|tms密码(长度大于等于4)|20|1</item>
+        <item>2|-|-|0|0</item>
+        <item>3|将您的设备和您的tms账户绑定。当您更换设备时也需要在新设备上再次绑定您的账号。|-|0|0</item>
+        <item>4|-|-|0|0</item>
+        <item>5|绑定|-|0|0</item>
+    </string-array>
+</resources>

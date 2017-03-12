@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_weight="1" />
+
+    <com.hlk.wbs.espider.lib.RippleView
+        android:id="@+id/ui_view_item_button_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        app:rv_rippleDuration="@integer/ui_ripple_view_animation_duration">
+
+        <TextView
+            android:id="@+id/ui_view_item_button_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/color_aed24c"
+            android:gravity="center"
+            android:padding="@dimen/ui_default_margin_padding_size_big"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white" />
+    </com.hlk.wbs.espider.lib.RippleView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_weight="1" />
+</LinearLayout>

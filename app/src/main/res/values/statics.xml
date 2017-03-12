@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ui_url_default_local_o" translatable="false">17</string>
+    <string name="ui_url_default_local_h" translatable="false">5</string>
+
+    <!--设备唯一-->
+    <string name="preference_tag_app_unique_code" translatable="false">UNIQUE_CODE</string>
+    <string name="preference_tag_app_gps_permission" translatable="false">GPS_PERMISSION</string>
+    <string name="preference_tag_app_last_account" translatable="false">LAST_ACCOUNT</string>
+    <string name="preference_tag_app_account_name" translatable="false">ACCOUNT_NAME</string>
+    <string name="preference_tag_app_account_belong" translatable="false">ACCOUNT_BELONG</string>
+    <string name="preference_tag_app_service_id" translatable="false">SESSION_ID</string>
+    <string name="preference_tag_app_report_period" translatable="false">REPORT_PERIOD</string>
+    <string name="preference_tag_app_last_located" translatable="false">LAST_LOCATED</string>
+    <string name="preference_tag_app_last_reported" translatable="false">LAST_REPORTED</string>
+
+    <string name="ui_base_text_nothing" translatable="false">&#xE002;</string>
+    <string name="ui_base_text_caution" translatable="false">&#xE88E;</string>
+    <string name="ui_base_text_everdigm_icon_icon" translatable="false">&#xed0f;</string>
+    <string name="ui_base_text_everdigm_icon_text" translatable="false">&#xed10;</string>
+    <string name="ui_base_text_about_catchphrase" translatable="false">&#xed1b;</string>
+    <string name="ui_base_text_account_bind_icon_bound" translatable="false">&#xE7FD;</string>
+    <string name="ui_base_text_account_bind_icon_rebind" translatable="false">&#xE7FF;</string>
+
+    <string name="ui_base_text_view_item_openable_right_suffix" translatable="false">&#xE5CC;</string>
+    <string name="ui_base_text_view_item_temporary_provider_gps" translatable="false">&#xE0C8;</string>
+    <string name="ui_base_text_view_item_temporary_provider_network" translatable="false">&#xE1E2;</string>
+
+    <string name="ui_base_text_demo" translatable="false">Demo</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hlk.wbs.espider.lib.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ui_view_item_openable_container"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginBottom="@dimen/ui_default_bottom_margin"
+    app:rv_color="@color/colorRibbonEffective"
+    app:rv_rippleDuration="@integer/ui_ripple_view_animation_duration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/ui_default_margin_padding_size">
+
+        <com.hlk.wbs.espider.lib.IconTextView
+            android:id="@+id/ui_view_item_openable_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ui_default_margin_padding_size"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ui_layout_view_item_openable_icon_size"
+            app:hlktv_background_shape="oval"
+            app:hlktv_font="materialicon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui_default_margin_padding_size"
+            android:layout_marginRight="@dimen/ui_default_margin_padding_size"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ui_view_item_openable_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:minWidth="60dp"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/ui_view_item_openable_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/color_bfbfbf"
+                android:textSize="@dimen/ui_default_text_size_little" />
+        </LinearLayout>
+
+        <com.hlk.wbs.espider.lib.IconTextView
+            android:id="@+id/ui_view_item_openable_suffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/ui_default_margin_padding_size"
+            android:gravity="center"
+            android:text="@string/ui_base_text_view_item_openable_right_suffix"
+            android:textSize="@dimen/ui_default_text_size_big"
+            app:hlktv_font="materialicon" />
+    </LinearLayout>
+</com.hlk.wbs.espider.lib.RippleView>

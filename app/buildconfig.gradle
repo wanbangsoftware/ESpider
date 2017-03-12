@@ -1,0 +1,49 @@
+apply from: 'signconfig.gradle'
+android {
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'boolean', 'LOGABLE', 'false'
+            resValue "bool", "app_allow_full_backup_content", "false"
+        }
+        debug {
+            initWith release
+            debuggable true
+            buildConfigField 'boolean', 'LOGABLE', 'true'
+            resValue "bool", "app_allow_full_backup_content", "true"
+        }
+    }
+    productFlavors {
+        everdigm {
+            applicationId "com.hlk.wbs.espider.everdigm"
+            signingConfig signingConfigs.everdigm
+            resValue "integer", "app_version_type", "0"
+            resValue "string", "app_url_default", "http://tms.everdigm.com/"
+            //resValue "string", "baidu_map_lbsapi_key", "VUxOobaZ2fn55UYLsFXAohWgrmqeDFPE"
+            manifestPlaceholders = [APP_PKG_NAME: applicationId]
+        }
+        china {
+            applicationId "com.hlk.wbs.espider.china"
+            signingConfig signingConfigs.china
+            resValue "integer", "app_version_type", "1"
+            resValue "string", "app_url_default","http://tms.everdigm.com/"
+            manifestPlaceholders = [APP_PKG_NAME: applicationId]
+        }
+    }
+    applicationVariants.all { variant ->
+        if (variant.buildType.name == "release") {
+            variant.outputs.each { output ->
+                def outputFile = output.outputFile
+                if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    File outputDirectory = new File(outputFile.parent);
+                    def fileName
+                    fileName = "${variant.flavorName}.${variant.versionName}.${getInternalVersion()}.apk"
+                    output.outputFile = new File(outputDirectory, fileName)
+                }
+            }
+        }
+    }
+}

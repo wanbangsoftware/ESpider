@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hlk.wbs.espider.lib.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginBottom="@dimen/ui_default_bottom_margin"
+    app:rv_color="@color/colorRibbonEffective"
+    app:rv_rippleDuration="@integer/ui_ripple_view_animation_duration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/ui_default_margin_padding_size">
+
+        <com.hlk.wbs.espider.lib.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui_default_margin_padding_size"
+            android:layout_marginRight="@dimen/ui_default_margin_padding_size"
+            android:gravity="center"
+            android:text="@string/ui_base_text_nothing"
+            android:textColor="@color/color_f57f17"
+            android:textSize="@dimen/ui_layout_view_item_openable_icon_size"
+            app:hlktv_font="materialicon" />
+
+        <TextView
+            android:id="@+id/ui_view_item_warning_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/color_bfbfbf"
+            android:textSize="@dimen/ui_default_text_size_little" />
+    </LinearLayout>
+</com.hlk.wbs.espider.lib.RippleView>

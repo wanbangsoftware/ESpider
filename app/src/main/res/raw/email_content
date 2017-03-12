@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+    <title>Exception</title>
+    <style type="text/css">
+        body
+        {
+            font: 75% Verdana, Arial, helvetica, sans-serif;
+            color: #000;
+            background: #FFFFFF;
+        }
+
+        .content
+        {
+            color: #505050;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        DIV.howtocode
+        {
+            FONT-SIZE: 10px;
+            BACKGROUND: #f0faf9;
+            COLOR: #000000;
+            margin-left: 0.1cm;
+            PADDING-LEFT: 0.1cm;
+            BORDER-LEFT: #4E7FD9 2px solid;
+            overflow: auto;
+        }
+
+        PRE
+        {
+            FONT-SIZE: 12px;
+            FONT-FAMILY: Lucida Console, Courier New, Courier, monospace;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h4>The exception(trace/debug message) below is from Android</h4>
+        STACK_TRACE ***********************
+        <div class="howtocode">
+            <pre>%stack_trace%</pre>
+        </div>
+        Device parameters:
+        <div class="howtocode">
+            <pre>%device_paramenters%</pre>
+        </div>
+        <br />
+        <br />
+        Logcat ***********************
+        <div class="howtocode">
+            <pre>%logcat%</pre>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ui_menu_item_data_has_reported">전송되었습니다</string>
+    <string name="ui_menu_item_data_not_report">전송되지 않았습니다</string>
+
+    <string name="ui_warning_progressing">잠시만 기다리십시오&#8230;</string>
+    <string name="ui_warning_network_not_available">인터넷 접속 불가능합니다.</string>
+    <string name="ui_warning_network_service_not_available">원격 액세스 안 됩니다.</string>
+    <string name="ui_warning_server_handle_fail">요청한 내용을 서버가 처리하지 못합니다. 잠시후에 다시 해보세요.</string>
+    <string name="ui_warning_press_again_to_exit">다시 한번 누르면 exit 됩니다.</string>
+    <string name="ui_warning_updating_title" formatted="false">새로운 버전이 있으며 다운로드 가능합니다(%s)</string>
+    <string name="ui_warning_nothing">보여 드린 것 없습니다.</string>
+    <string name="ui_warning_loading">지금 로딩중입니다, 잠시만 기다리세요&#8230;</string>
+    <string name="ui_warning_default_title">경고！</string>
+    <string name="ui_warning_no_content_display">보여 드린 것 없습니다.</string>
+    <string name="ui_warning_cannot_run_in_emulator">시뮬레이터에 이 프로그램을 실행하지 못합니다.</string>
+    <string name="ui_warning_update_title">새로운 버전은 이미 발포합니다.</string>
+    <string name="ui_warning_google_play_service_not_available">먼저 Google Play Service를 설치하여야 계속 진행할 수 있습니다.</string>
+    <string name="ui_warning_location_service_not_exist">사용자의 설비가 위치 서비스 관련 모듈이 없습니다.</string>
+    <string name="ui_warning_location_provider_not_enabled">사용자의 위치를 액세스 안 됩니다. 이 설정은 이미 오픈 되는 걸로 확보해 주세요.(위치모드가 높은 정확도로 설정해 야합니다.</string>
+    <string name="ui_warning_updating_no_update">지금 설치하는 버전은 최신버전입니다.</string>
+    <string name="ui_warning_updating_server_fail">서버가 업데이트하는 요청을  처리하지 못합니다.</string>
+    <string name="ui_warning_updating_fail">업데이트 검사 실패합니다. 잠시후에 다시 해보 세요.</string>
+    <string name="ui_warning_updating_user_canceled">사용자 취소됩니다.</string>
+    <string name="ui_warning_account_fail">계정번호 입력 오류(자모,숫자및 밑줄을 가능합니다.)</string>
+    <string name="ui_warning_password_fail">패스워드 입력 오류(자모,숫자및 밑줄을 가능합니다.)</string>
+    <string name="ui_warning_account_need_bind">먼저 사용자의 TMS 계정을 방딩해야 합니다. </string>
+    <string name="ui_warning_account_need_re_bind">TMS 계정 정보가 이미 변경되어 있으며 설비가 바꾸지 않으면 다시 계정을 방딩해 주세요.</string>
+
+    <string name="ui_permission_message_fetchable">푸시 정보 접수</string>
+    <string name="ui_base_text_dot">，</string>
+
+    <string name="ui_fragment_title_bind_account">TMS 계정 방딩</string>
+
+    <string name="ui_notification_updating_title">다운로드 중입니다&#8230;</string>
+    <string name="ui_notification_updating_description">설치 파일을 다운로드중 입니다. 잠시만 기다리세요.</string>
+    <string name="ui_notification_updated_title">다운로드 완료되었습니다.</string>
+    <string name="ui_notification_updated_description">설치해 주세요.</string>
+    <string name="ui_notification_update_fail_title">다운로드 실패되었습니다.</string>
+    <string name="ui_notification_update_fail_description">설치 파일은 다운로드중에 에러입니다. 잠시후에 다시 해 보세요.</string>
+
+    <string name="ui_dialog_button_yes_i_know">Yes</string>
+    <string name="ui_dialog_button_update_confirm"> 업데이트</string>
+    <string name="ui_dialog_button_update_cancel">Cancel</string>
+
+    <string name="ui_permission_access_external_storage">저장 공간 액세스</string>
+    <string name="ui_permission_access_location">위치 정보 액세스</string>
+    <string name="ui_permission_access_phone_state">전화 설비 사용</string>
+    <string name="ui_permission_base" formatted="false"><![CDATA[App 는 사용자가  아래 기본 권한을 허락해 주셔야 프로그램을 정상적으로 실행할 수 있습니다. ：%s。<br />이 권한들을 <b>금지해서</b>  개인 프라이버시를 보증할 수 있지만 전부 기능들을 완벽하게 체험할 수 없습니다.]]></string>
+
+    <string name="ui_view_holder_text_check_update">새로운 버전 체크&#8230;</string>
+    <string name="ui_view_holder_text_account_bound"><![CDATA[<font color="#65656a">%s</font> 에 방딩됐습니다.]]></string>
+    <string name="ui_view_holder_text_account_rebind">다시 방딩 필요합니다.</string>
+</resources>

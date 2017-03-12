@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hlklib_custom_switch_left_text">开</string>
+    <string name="hlklib_custom_switch_right_text">关</string>
+
+    <!--Voice Recorder-->
+    <string name="hlklib_voice_recorder_button_text_standby">按住说话</string>
+    <string name="hlklib_voice_recorder_button_text_too_long">超过限制</string>
+    <string name="hlklib_voice_recorder_button_text_release">松开结束</string>
+    <string name="hlklib_voice_recorder_button_text_release_cancel">松开取消</string>
+    <string name="hlklib_voice_recorder_warning_text_cancel">松开结束录音</string>
+    <string name="hlklib_voice_recorder_warning_text_too_short">录音时间太短</string>
+    <string name="hlklib_voice_recorder_warning_text_too_long">录音时间超过限制</string>
+    <string name="hlklib_voice_recorder_warning_text_wanna_cancel">取消录音</string>
+</resources>

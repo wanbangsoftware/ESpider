@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.hlk.wbs.espider.lib.RippleView
+        android:id="@+id/hlklib_layout_ribbon_flag_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_color="@color/colorRibbonEffective"
+        app:rv_rippleDuration="@integer/ui_ripple_view_animation_duration">
+
+        <RelativeLayout
+            android:id="@+id/hlklib_layout_ribbon_flag_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+        </RelativeLayout>
+    </com.hlk.wbs.espider.lib.RippleView>
+
+    <TextView
+        android:id="@+id/hlklib_layout_ribbon_flag_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-16.5dp"
+        android:layout_marginTop="8.25dp"
+        android:background="@color/hlklib_ribbon_flag_view_default_text_background"
+        android:gravity="center"
+        android:paddingLeft="16.5dp"
+        android:paddingRight="16.5dp"
+        android:rotation="-45"
+        android:singleLine="true"
+        android:text="@string/hlklib_ribbon_flag_text"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/hlklib_ribbon_flag_default_text_size" />
+</RelativeLayout>

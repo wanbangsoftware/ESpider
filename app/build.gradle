@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+apply from: 'buildconfig.gradle'
+apply from: 'dependencies.gradle'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+        resValue "string", "app_internal_version", getInternalVersion()
+        resValue "string", "baidu_lbsapi_API_KEY", "VUxOobaZ2fn55UYLsFXAohWgrmqeDFPE"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+def getInternalVersion() {
+    def formatted = new Date().format("yyyyMMddHHmm");
+    def subed = formatted.take(11);
+    return "${subed}0";
+}

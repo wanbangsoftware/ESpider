@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ui_network_caution"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/ui_default_bottom_margin"
+    android:background="@color/color_ffea00"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.hlk.wbs.espider.lib.IconTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ui_default_margin_padding_size"
+        android:text="@string/ui_base_text_caution"
+        android:textColor="@color/color_f57f17"
+        android:textSize="@dimen/ui_network_caution_icon_size"
+        app:hlktv_font="materialicon" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ui_warning_network_not_available" />
+</LinearLayout>

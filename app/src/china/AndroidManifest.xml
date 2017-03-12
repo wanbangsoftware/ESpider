@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:icon="@mipmap/img_app_icon"
+        tools:replace="android:icon">
+
+        <!--百度地图相关参数-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="@string/baidu_lbsapi_API_KEY" />
+
+    </application>
+
+</manifest>

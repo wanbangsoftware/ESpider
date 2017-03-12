@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Custom Switch-->
+    <dimen name="hlklib_custom_switch_button_min_width">50dp</dimen>
+    <dimen name="hlklib_custom_switch_padding">1dp</dimen>
+    <dimen name="hlklib_custom_switch_corner_size">5dp</dimen>
+    <dimen name="hlklib_custom_switch_corner_size_inner">4dp</dimen>
+    <dimen name="hlklib_custom_switch_text_top_bottom_padding">5dp</dimen>
+    <!--Voice Recorder-->
+    <dimen name="hlklib_voice_recorder_padding">20dp</dimen>
+    <!--Ribbon Flag View-->
+    <dimen name="hlklib_ribbon_flag_default_size">100dp</dimen>
+    <dimen name="hlklib_ribbon_flag_default_text_size">10sp</dimen>
+    <!--Countdown Input-->
+    <dimen name="hlklib_countdown_input_padding">5dp</dimen>
+    <dimen name="hlklib_countdown_input_counter_text_size">8sp</dimen>
+</resources>

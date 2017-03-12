@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hlklib_image_content_description">Image</string>
+    <string name="hlklib_ribbon_flag_text">Beta</string>
+
+    <string name="hlklib_custom_switch_left_text">On</string>
+    <string name="hlklib_custom_switch_right_text">Off</string>
+
+    <!--Voice Recorder-->
+    <string name="hlklib_voice_recorder_button_text_standby">Press it to talk</string>
+    <string name="hlklib_voice_recorder_button_text_too_long">Too long</string>
+    <string name="hlklib_voice_recorder_button_text_release">Release it to finish</string>
+    <string name="hlklib_voice_recorder_button_text_release_cancel">Release it to cancel</string>
+    <string name="hlklib_voice_recorder_warning_text_cancel">Release to cancel recording</string>
+    <string name="hlklib_voice_recorder_warning_text_too_short">Too short</string>
+    <string name="hlklib_voice_recorder_warning_text_too_long">Too long</string>
+    <string name="hlklib_voice_recorder_warning_text_wanna_cancel">Cancel recording</string>
+</resources>

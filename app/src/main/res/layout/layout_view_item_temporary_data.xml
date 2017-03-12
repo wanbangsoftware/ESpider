@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hlk.wbs.espider.lib.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ui_view_item_openable_container"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginBottom="@dimen/ui_default_bottom_margin"
+    app:rv_color="@color/colorRibbonEffective"
+    app:rv_rippleDuration="@integer/ui_ripple_view_animation_duration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/ui_default_margin_padding_size">
+
+        <com.hlk.wbs.espider.lib.IconTextView
+            android:id="@+id/ui_view_item_temporary_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ui_default_margin_padding_size"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ui_layout_view_item_openable_icon_size"
+            app:hlktv_font="materialicon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ui_view_item_temporary_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="37.503872" />
+
+            <TextView
+                android:id="@+id/ui_view_item_temporary_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="121.253813" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ui_view_item_temporary_located"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ui_default_margin_padding_size"
+                android:text="locate: 2016/06/12 23:19:50" />
+
+            <TextView
+                android:id="@+id/ui_view_item_temporary_reported"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ui_default_margin_padding_size"
+                android:text="report: not really" />
+        </LinearLayout>
+
+        <com.hlk.wbs.espider.lib.IconTextView
+            android:id="@+id/ui_view_item_temporary_provider"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ui_default_margin_padding_size"
+            android:gravity="center"
+            android:text="@string/ui_base_text_view_item_temporary_provider_gps"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ui_layout_view_item_openable_icon_size"
+            app:hlktv_font="materialicon" />
+
+    </LinearLayout>
+</com.hlk.wbs.espider.lib.RippleView>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ui_list_view_items">
+        <item>0|-|-|-|-|0|-|1</item>
+        <item>1|&#xe7fe;|#aed24c|계정 방딩|당신의 설비및 TMS 계정을 방딩해 주세요.|-1|1|1</item>
+        <item>2|&#xe855;|#fbc02d|정기보고|현재 보고시간 간격 %d분|-1|1|0</item>
+        <item>3|-|-|-|-|0|-|1</item>
+        <item>4|&#xe86a;|#00a8a8|새로운 버전 체크||-1|1|1</item>
+        <item>5|&#xe8fd;|#fe8802|About|About eSpider for everdigm|-1|1|1</item>
+    </string-array>
+
+    <string-array name="ui_list_bind_account">
+        <item>0|계정|tms계정(길이 3이나 3보다 크다)|30|0</item>
+        <item>1|패스워드|tms패스워드(길이 4이나 4보다 크다)|20|1</item>
+        <item>2|-|-|0|0</item>
+        <item>3|당신의 설비및 tms 계정을 방딩해 주세요. 설비가 바꾸는 경우에 새로운 설비에 계정을 다시 방딩해야 합니다.|-|0|0</item>
+        <item>4|-|-|0|0</item>
+        <item>5|방딩|-|0|0</item>
+    </string-array>
+</resources>
